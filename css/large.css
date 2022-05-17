@@ -1,2 +1,9 @@
 @media only screen and (min-width: 64rem) {
+nav {
+    width: 60rem;
+}
+
+.header-cont {
+    width: 60rem;
+}
 }
