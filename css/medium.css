@@ -42,4 +42,14 @@ nav {
     width: fit-content;
     margin-top: 1.5rem;
 }
+
+section {
+    margin: 8rem 1rem;
+}
+
+.readme-cont {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    border: 1px solid var(--borders);
+}
 }

@@ -1,9 +1,18 @@
 @media only screen and (min-width: 64rem) {
 nav {
-    width: 60rem;
+    max-width: var(--content-width);
 }
 
 .header-cont {
-    width: 60rem;
+    max-width: var(--content-width);
+}
+
+section {
+    max-width: var(--content-width);
+    margin: 8rem auto 0;
+}
+
+.readme-cont {
+    grid-template-columns: 1fr 2fr;
 }
 }
