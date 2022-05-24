@@ -219,11 +219,12 @@ section h2 {
 .readme-cont {
     border-top: 1px solid var(--borders);
     border-bottom: 1px solid var(--borders);
-    /* padding: 1rem; */
+    border-radius: 6px;
 }
 
 .readme-profile {
     padding: 1rem;
+    text-align: center;
 }
 
 .readme-profile img {
@@ -266,4 +267,55 @@ section h2 {
     font-size: 1.6rem;
     margin: .3rem 0;
     border-bottom: 1px solid var(--borders);
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects {
+    /* max-width: 63.5rem; */
+    margin: 8rem auto 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: var(--text-bright) !important;
+}
+
+.card {
+    border: 1px solid var(--borders);
+    border-radius: 6px;
+    max-width: 17rem;
+    margin: 0 auto;
+}
+
+.card-content {
+    margin: 1rem 1rem 1.5rem;
+}
+
+.card-content p {
+    margin: .4rem 0 1rem;
+}
+
+.card-content a {
+    border: 1px solid var(--borders);
+    padding: .2rem .5rem;
+    text-decoration: none;
+    color: var(--text-bright);
+    border-radius: 6px;
+    transition: .3s;
+    background-color: var(--resource);
+}
+
+.card-content a:nth-child(4) {
+    background-color: var(--main-btns);
+}
+
+.card-content a:nth-child(3):hover {
+    background-color: #35ca53;
+}
+.card-content a:nth-child(4):hover {
+    background-color: #30363D;
 }

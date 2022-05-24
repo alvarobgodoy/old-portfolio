@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./css/small.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
-    <script src="./js/main.js"></script>
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/projects.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <nav>
@@ -66,14 +68,71 @@
             </div>
         </div>
     </section>
-    <section class="projects" id="projects">
-        <h5>My work</h5>
-        <h2>/projects</h2>
-    </section>
+    <!-- <section class="projects" id="projects"> -->
+        <section class="projects">
+            <h5>My work</h5>
+            <h2>/projects</h2>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="images/liberty.png"
+                            alt="">
+                            <div class="card-content">
+                                <h4>Liberty Chamber of Commerce</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quod, id voluptatum.</p>
+                                <a href="#">Live version</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="images/templesuites.png"
+                            alt="">
+                            <div class="card-content">
+                                <h4>Temple Inn & Suites</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quod, id voluptatum.</p>
+                                <a href="#">Live version</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="images/cure.png"
+                            alt="">
+                            <div class="card-content">
+                                <h4>Cure Boredom</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quod, id voluptatum.</p>
+                                <a href="#">Live version</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <img src="images/cure.png"
+                            alt="">
+                            <div class="card-content">
+                                <h4>WDD 330 Portfolio</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quod, id voluptatum.</p>
+                                <a href="#">Live version</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- </section> -->
     <section class="contact-me" id="contact-me">
         <h5>Get in touch</h5>
         <h2>/contact-me</h2>
     </section>
     <footer></footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

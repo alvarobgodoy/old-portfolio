@@ -52,4 +52,8 @@ section {
     grid-template-columns: 1fr 1.5fr;
     border: 1px solid var(--borders);
 }
+
+.card {
+    max-width: 20rem;
+}
 }
