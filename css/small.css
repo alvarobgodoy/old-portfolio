@@ -5,6 +5,7 @@
     --borders: #30363D;
     --main-btns: #21262D;
     --resource: #238636;
+    --footer: #0D1117;
     --content-width: 60rem
 }
 
@@ -195,6 +196,7 @@ header {
 
 .toogleMode {
     transform: rotate(90deg);
+    text-decoration: none;
     height: 6.25rem;
     width: 6.25rem;
     font-size: 1.2rem;
@@ -208,6 +210,7 @@ header {
 
 section {
     margin-top: 8rem;
+    padding-top: 2rem;
 }
 
 section h2, h5 {
@@ -390,7 +393,7 @@ form button {
 footer {
     text-align: center;
     margin-top: 8rem;
-    background-color: #0D1117;
+    background-color: var(--footer);
     padding: 3rem;
     border-top: 1px solid var(--borders);
 }
