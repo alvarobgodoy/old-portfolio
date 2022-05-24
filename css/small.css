@@ -8,6 +8,10 @@
     --content-width: 60rem
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background);
     color: var(--text-normal);
@@ -217,8 +221,7 @@ section h2 {
 }
 
 .readme-cont {
-    border-top: 1px solid var(--borders);
-    border-bottom: 1px solid var(--borders);
+    border: 1px solid var(--borders);
     border-radius: 6px;
 }
 
@@ -341,6 +344,7 @@ form {
     border-radius: 6px;
     color: var(--text-bright);
     font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 form label, input, textarea {
@@ -365,16 +369,10 @@ form button {
     color: var(--text-bright);
 }
 
-.contact-cont {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: .5rem;
-}
-
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.3rem;
 }
 
 .contact-info > div {
@@ -387,4 +385,54 @@ form button {
 .contact-info a {
     text-decoration: none;
     color: var(--text-bright);
+}
+
+footer {
+    text-align: center;
+    margin-top: 8rem;
+    background-color: #0D1117;
+    padding: 3rem;
+    border-top: 1px solid var(--borders);
+}
+
+footer > img {
+    width: 5rem;
+}
+
+footer h2 {
+    font-size: 3.5rem;
+}
+
+.footer-nav {
+    margin: 3rem 0  ;
+}
+
+.footer-nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-normal);
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+    transition: .3s;
+}
+
+.footer-nav a:hover {
+    color: var(--text-bright);
+    text-decoration: underline;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 25rem;
+}
+
+.footer-socials svg, img {
+    width: 2rem;
+}
+
+footer p {
+    margin-top: 3rem    ;
 }

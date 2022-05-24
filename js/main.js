@@ -3,3 +3,7 @@ function toggleSlideMenu() {
     document.getElementById('openBtn').classList.toggle('open');
     document.getElementById('closeBtn').classList.toggle('open');
 }
+
+const menu = document.getElementById('menu');
+
+menu.localScroll({duration: 800});
